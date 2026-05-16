@@ -4,11 +4,8 @@ export default function Hero() {
       <div className="hero-bg"></div>
       <div className="hero-overlay"></div>
       <div className="hero-content">
-        <p className="hero-eyebrow">Cabeleireira &amp; Terapeuta Capilar</p>
         <h1 className="hero-title">
-          Saúde,<br />
-          <em>beleza</em> e<br />
-          presença.
+          Cabeleireira e Terapeuta Capilar
         </h1>
         <p className="hero-sub">
           Cuidado do couro cabeludo e transformação dos fios com responsabilidade.

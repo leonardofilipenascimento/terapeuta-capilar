@@ -19,6 +19,11 @@ export default function Fidelidade() {
           <h3>Desconto no Pagamento</h3>
           <p>Até 10% de desconto em pagamentos via Pix, espécie ou débito.</p>
         </div>
+        <div className="fid-item reveal">
+          <div className="fid-icon">◇</div>
+          <h3>Manutenções</h3>
+          <p>Realizar a manutenção de químicas dentro do prazo estabelecido também gera bônus e descontos.</p>
+        </div>
       </div>
     </section>
   );
