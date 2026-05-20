@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "saúde capilar",
     "Elizangela Santos",
     "consultoria capilar",
-    "lavagem terapêutica",
+    "Lavagem terapêutica",
     "detox capilar",
   ],
   authors: [{ name: "Elizangela Santos" }],
