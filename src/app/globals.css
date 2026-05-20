@@ -86,7 +86,7 @@ nav {
 
 .hero-overlay {
   position: absolute; inset: 0;
-  background: linear-gradient(to top, rgba(239,239,239,0.88) 0%, rgba(239,239,239,0.25) 55%, transparent 100%);
+  background: linear-gradient(to top, rgba(14,10,6,0.82) 0%, rgba(14,10,6,0.45) 50%, rgba(14,10,6,0.15) 100%);
 }
 
 .hero-content {
@@ -105,7 +105,7 @@ nav {
   font-size: 0.95rem;
   letter-spacing: 0.35em;
   text-transform: uppercase;
-  color: var(--gold-dark);
+  color: var(--gold);
   margin-bottom: 1.2rem;
   display: flex; align-items: center; gap: 1rem;
 }
@@ -119,12 +119,13 @@ nav {
 
 .hero-title {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(3.5rem, 7vw, 6rem);
+  font-size: clamp(3.8rem, 7.5vw, 6.5rem);
   font-weight: 300;
   line-height: 1.05;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.01em;
   margin-bottom: 1.6rem;
-  color: var(--text);
+  color: #FFFFFF;
+  text-shadow: 0 2px 24px rgba(0,0,0,0.45);
 }
 
 .hero-title em {
@@ -133,12 +134,15 @@ nav {
 }
 
 .hero-sub {
-  font-size: 1.25rem;
-  font-weight: 300;
-  line-height: 1.75;
-  color: var(--text-muted);
-  max-width: 420px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #FFFFFF;
+  max-width: 460px;
   margin-bottom: 2.5rem;
+  text-shadow: 0 1px 12px rgba(0,0,0,0.6);
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--gold);
 }
 
 .btn-gold {
@@ -631,7 +635,7 @@ footer {
   .nav-links { display: none; }
   section { padding: 5rem 2rem; }
   .hero-content { padding: 0 2rem 5rem; }
-  .hero-eyebrow { color: var(--dark); }
+  .hero-eyebrow { color: var(--gold); }
   .sobre { grid-template-columns: 1fr; gap: 3rem; }
   .servicos-grid { grid-template-columns: 1fr; }
   .fid-grid { grid-template-columns: 1fr 1fr; }
