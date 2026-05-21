@@ -484,7 +484,7 @@ section { padding: 7rem 4rem; }
 }
 
 .locais-grid .local-card:only-child {
-  max-width: 50%;
+  max-width: 90%;
   width: 100%;
 }
 
